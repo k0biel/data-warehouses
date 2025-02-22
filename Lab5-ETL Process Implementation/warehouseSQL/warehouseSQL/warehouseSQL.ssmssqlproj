@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="warehouseSQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="STASIU-LAPTOP:STASIU-LAPTOP\lemst">
+          <Created>2024-11-21T19:43:57.0046706+01:00</Created>
+          <Type>SQL</Type>
+          <Server>STASIU-LAPTOP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="dw_create.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dw_create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dw_drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dw_drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dw_insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dw_insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dw_select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dw_select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_ft_order.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_ft_order.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_ft_transfers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_ft_transfers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_junk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_junk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_material.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_material.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_project.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_project.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_supplier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_supplier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_warehouse.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_warehouse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inventory_create.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>inventory_create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inventory_drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>inventory_drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inventory_insert_t1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>inventory_insert_t1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inventory_insert_t2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>inventory_insert_t2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inventory_select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>inventory_select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_create.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_insert_t1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_insert_t1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_insert_t2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_insert_t2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ordering_update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STASIU-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STASIU-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ordering_update.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

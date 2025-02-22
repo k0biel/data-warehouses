@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "developer", "developer\developer.dwproj", "{8FADE91F-0592-46EA-9106-22E78A652C23}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "intergration services project", "intergration services project\intergration services project.dtproj", "{FB1AA976-6FAC-4660-AFDC-433875558B49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Default = Azure|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Azure|Default.ActiveCfg = Development
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Azure|Default.Build.0 = Development
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Azure|Default.Deploy.0 = Development
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Development|Default.ActiveCfg = Development
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Development|Default.Build.0 = Development
+		{8FADE91F-0592-46EA-9106-22E78A652C23}.Development|Default.Deploy.0 = Development
+		{FB1AA976-6FAC-4660-AFDC-433875558B49}.Azure|Default.ActiveCfg = Azure
+		{FB1AA976-6FAC-4660-AFDC-433875558B49}.Azure|Default.Build.0 = Azure
+		{FB1AA976-6FAC-4660-AFDC-433875558B49}.Development|Default.ActiveCfg = Development
+		{FB1AA976-6FAC-4660-AFDC-433875558B49}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D6C957-84D1-4F99-A70B-10CCB99F2A77}
+	EndGlobalSection
+EndGlobal
