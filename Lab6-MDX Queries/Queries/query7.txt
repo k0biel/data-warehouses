@@ -1,0 +1,13 @@
+SELECT 
+    NON EMPTY { [Measures].[Total lost quantity] } ON COLUMNS, 
+    NON EMPTY { 
+        TOPCOUNT(
+            ([Dim Material].[Material Name].[Material Name].ALLMEMBERS 
+            * [Dim Warehouse].[Warehouse Name].[Warehouse Name].ALLMEMBERS), -- Poprawione zamknięcie nawiasu
+            10, -- Top 10 wyników
+            [Measures].[Total lost quantity] -- Sortowanie według Total lost quantity
+        )
+    } 
+    DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS
+FROM [Developer Dw] 
+CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS

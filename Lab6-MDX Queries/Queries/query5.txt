@@ -1,0 +1,9 @@
+SELECT 
+    NON EMPTY { [Measures].[Total lost quantity] } ON COLUMNS, 
+    NON EMPTY { 
+        ([Dim Warehouse].[Warehouse Name].[Warehouse Name].ALLMEMBERS 
+        * [Dim Material].[Unit].[Unit].ALLMEMBERS)
+    } 
+    DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME ON ROWS
+FROM [Developer Dw] 
+CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS

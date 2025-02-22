@@ -1,0 +1,5 @@
+SELECT 
+    NON EMPTY { [Measures].[Total material cost] } ON COLUMNS,
+    NON EMPTY { [Dim Material].[Material Name].[Material Name].ALLMEMBERS } ON ROWS
+FROM [Developer Dw]
+WHERE ([Order Date].[Month].&[April])
